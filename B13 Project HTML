@@ -1,0 +1,74 @@
+<!DOCTYPE html >
+< html  lang =" en " >
+< kepala >
+    < meta  charset =" utf-8 " />
+    < link  rel =" icon " href =" %PUBLIC_URL%/favicon.ico " />
+    < meta  name =" viewport " content =" width=device-width, initial-scale=1 " />
+    < title > website zan </ title >
+    < link  rel =" stylesheet " href =" style.css "/>
+</ kepala >
+< tubuh >
+    < tajuk >
+        < div  kelas =" logo " >
+            < img  src =" aset/icon1.jpg " alt =" ZSYTROME " class =" logo-img " >
+            < h1  class =" logo-title " > ZSYTROME </ h1 >
+        </ div >
+        < navigasi >
+            < ul > 
+                < li > < a  href =" #Produk " > PRODUK ZTRO SHOES </ a > </ li >
+                < li > < a  href =" mailto:ditananda32@.gmaail.com " > KONTAK </ a > </ li >
+            </ ul >
+        </ nav >
+        < button  class =" btn-cta " onclick =" redirInstagram() " > Ikuti Kami </ button >
+    </ tajuk >
+    < div  class =" wadah " >
+        < div  kelas =" pengantar " >
+            < p  class =" title " > Halo, Selamat datang di Toko kami! </ p >
+            < p  class =" description " > Lihat mitra merchant resmi kami di sini! </ p >
+            < img  src =" aset/Sepatu 3.jpg " alt =" Zystrome foto1 " class =" img-foto " >
+        </ div >
+        < div  kelas =" paralaks " >
+            < div  class =" tentang " >
+                    < p  class =" title " > Silahkan kunjungin Toko Kami </ p >
+                    < p  class =" description " > Info lebih lanjut mengenai Zystrome Shoes. </ p >
+                    < div  kelas =" mt-10 " >
+                        < button  class =" btn-cta " onclick =" redirWhatsapp() " > Mari Kerjasama </ button >
+                    </ div >
+            </ div >
+            < div  class =" wadah " >
+                < div  class =" card " id =" Produk " >
+                    < div  class =" kartu-item " >
+                        < img  src =" aset/foto1.jpg " alt =" ikon 1 " class =" ikon "/>
+                        < button  class =" card-title " > KOLEKSI SNEAKERS. </ tombol >
+                        < p  class =" card-description " > Kenali koleksi sepatu kets kami yang terbaik dan modis yang pernah Anda lihat </ p >
+                    </ div >
+                    < div  class =" kartu-item " >
+                        < img  src =" aset/sandal.jpg " alt =" ikon 2 " class =" ikon "/>
+                        < button  class =" card-title " > KOLEKSI SANDAL. </ tombol >
+                        < p  class =" card-description " > Selalu tampil trendi untuk pakaian kasual Anda </ p >
+                    </ div >
+                    < div  class =" kartu-item " >
+                        < img  src =" aset/moccasin.jpg " alt =" ikon 3 " class =" ikon "/>
+                        < button  class =" card-title " > KOLEKSI MOCCASIN. </ tombol >
+                        < p  class =" card-description " > Dapatkan tampilan paling modis untuk pakaian formal pintar Anda </ p >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        < footer >
+            < p  kelas =" judul " > © Zystrome2022 </ p >
+        </ footer >
+        < naskah >
+			fungsi  redirInstagram ( )  {
+				jendela . lokasi . href  =  "https://instagram.com/kzytrome"
+			}
+			
+			fungsi  redirWhatsapp ( )  {
+				jendela . lokasi . href  =  "https://wa.me/+6212345679"
+			}
+		</ skrip >
+        
+    </ div > 
+    
+</ tubuh >
+</ html >
